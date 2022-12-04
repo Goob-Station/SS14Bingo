@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MvM Bingo Gen</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="./styles.css">
+        <script src = "./javascript/jquery-3.6.1.min.js"></script>
+        <script src = "./javascript/html2canvas.js"></script>
+        <script src="./javascript/bingo.js"></script>
+    </head>
+    <body>
+
+        <p>MvM Bingo Generator</p>
+        <p2>This sites curently a WIP feel free to send me suggestions on discord @gaming#6597</p2>
+        <br>
+        
+        <label>Select tour:</label>
+        <select id="cardTourSel" onchange="bingoCreate()">
+        </select>
+        <br>
+
+        <label>Select bingo card size:</label>
+        <select id="cardSizeSel" onchange="bingoCreate()">
+            <option value='3'>3x3</option>
+            <option value='5'>5x5</option>
+        </select>
+        <br>
+
+        <button onclick="bingoCreate()">Generate Card!</button>
+        <button onclick="saveBingo()">Save Card!</button>
+
+        <div id="bingoCard"></div>
+        
+    </body>
+</html>

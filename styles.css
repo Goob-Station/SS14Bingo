@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "tf2regular";
+    src: url('./fonts/tf2.woff2') format('woff2'),
+    url("./fonts/tf2.woff") format("woff"),
+    url("./fonts/tf2.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-size: 24px;
+    color: crimson;
+}
+
+body {
+    background-color: #282A36;
+}
+
+table {
+    font-family: tf2regular, Arial, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid black;
+    table-layout: fixed;
+}
+
+td, th {
+    width: 5em;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid black;
+}
+
+tr {
+    font-size: 24px;
+    height: 5em;
+    border: 1px solid black;
+    background-color: #dddddd;
+    user-select: none;
+}
+
+#bingoCard{
+    margin: 0 auto;
+}
+
+#bingoHead{
+    height: 75pt;
+    background: #CF7666;
+    font-weight: bolder;
+    font-size: 40pt;
+}
+
+#bingoTour{
+    height: 35pt;
+    background: #D36956;
+    font-weight: bolder;
+    font-size: 20pt;
+    border-bottom: 3px solid black;
+}
