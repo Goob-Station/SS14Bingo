@@ -38,7 +38,7 @@ function bingoCreate(){
     bH.setAttribute('id', 'bingoHead');
     const bHC = bH.insertCell();
     bHC.setAttribute('colspan', cardSize);
-    bHC.innerHTML = "MvM Bingo";
+    bHC.innerHTML = "SS14 Bingo";
 
     const bT = card.insertRow();
     bT.setAttribute('id', 'bingoTour');
